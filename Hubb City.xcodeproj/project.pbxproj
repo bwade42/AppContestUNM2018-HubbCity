@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AF66A251FF090E800AA2C57 /* CarpetCleaning.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 0AF66A241FF090E700AA2C57 /* CarpetCleaning.MOV */; };
+		0AF66A271FF0989200AA2C57 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF66A261FF0989200AA2C57 /* SignInViewController.swift */; };
+		0AF66A291FF2351A00AA2C57 /* HomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF66A281FF2351A00AA2C57 /* HomePageController.swift */; };
+		0AF66A2D1FFB74CF00AA2C57 /* ScheduleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF66A2C1FFB74CF00AA2C57 /* ScheduleController.swift */; };
+		0AF66A2F1FFC3E2500AA2C57 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AF66A2E1FFC3E2500AA2C57 /* Images.xcassets */; };
+		0AF66A311FFC3E6400AA2C57 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = 0AF66A301FFC3E6400AA2C57 /* AppIcon.appiconset */; };
+		0AF66A331FFD94A400AA2C57 /* AppointmentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF66A321FFD94A400AA2C57 /* AppointmentsTableViewCell.swift */; };
+		0AF66A351FFD98F200AA2C57 /* AppointmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF66A341FFD98F200AA2C57 /* AppointmentsViewController.swift */; };
+		0AF66A371FFD9B3300AA2C57 /* AppointmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF66A361FFD9B3300AA2C57 /* AppointmentModel.swift */; };
+		0AF66A391FFEFA6D00AA2C57 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF66A381FFEFA6D00AA2C57 /* Singleton.swift */; };
+		0AF66A3F2000541200AA2C57 /* PricingAndSpecials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF66A3E2000541200AA2C57 /* PricingAndSpecials.swift */; };
+		245F94C61FEF396400569065 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 245F94C51FEF396400569065 /* Main.storyboard */; };
+		24684F0D1FEDCFE00049EB42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24684F0C1FEDCFE00049EB42 /* AppDelegate.swift */; };
+		24684F0F1FEDCFE00049EB42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24684F0E1FEDCFE00049EB42 /* ViewController.swift */; };
+		24684F141FEDCFE00049EB42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24684F131FEDCFE00049EB42 /* Assets.xcassets */; };
+		24684F171FEDCFE00049EB42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24684F151FEDCFE00049EB42 /* LaunchScreen.storyboard */; };
+		24684F3C1FEDDAEB0049EB42 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24684F3B1FEDDAEB0049EB42 /* GoogleService-Info.plist */; };
+		24684F451FEDE6D80049EB42 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24684F3D1FEDE6D80049EB42 /* AudioToolbox.framework */; };
+		24684F461FEDE6D80049EB42 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24684F3E1FEDE6D80049EB42 /* CFNetwork.framework */; };
+		24684F471FEDE6D80049EB42 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24684F3F1FEDE6D80049EB42 /* CoreGraphics.framework */; };
+		24684F481FEDE6D80049EB42 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24684F401FEDE6D80049EB42 /* CoreLocation.framework */; };
+		24684F491FEDE6D80049EB42 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24684F411FEDE6D80049EB42 /* QuartzCore.framework */; };
+		24684F4A1FEDE6D80049EB42 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24684F421FEDE6D80049EB42 /* Security.framework */; };
+		24684F4B1FEDE6D80049EB42 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24684F431FEDE6D80049EB42 /* StoreKit.framework */; };
+		24684F4C1FEDE6D80049EB42 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24684F441FEDE6D80049EB42 /* SystemConfiguration.framework */; };
+		24684F4E1FEDE6F20049EB42 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 24684F4D1FEDE6F20049EB42 /* libz.tbd */; };
+		24684F501FEDE71D0049EB42 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 24684F4F1FEDE71D0049EB42 /* libsqlite3.tbd */; };
+		F098AC59C5C47CDA5FBB723D /* Pods_Hubb_City.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C27A7876ABB5BD0E5934106 /* Pods_Hubb_City.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AF66A241FF090E700AA2C57 /* CarpetCleaning.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = CarpetCleaning.MOV; sourceTree = "<group>"; };
+		0AF66A261FF0989200AA2C57 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		0AF66A281FF2351A00AA2C57 /* HomePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageController.swift; sourceTree = "<group>"; };
+		0AF66A2C1FFB74CF00AA2C57 /* ScheduleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleController.swift; sourceTree = "<group>"; };
+		0AF66A2E1FFC3E2500AA2C57 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0AF66A301FFC3E6400AA2C57 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcon.appiconset; sourceTree = "<group>"; };
+		0AF66A321FFD94A400AA2C57 /* AppointmentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsTableViewCell.swift; sourceTree = "<group>"; };
+		0AF66A341FFD98F200AA2C57 /* AppointmentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsViewController.swift; sourceTree = "<group>"; };
+		0AF66A361FFD9B3300AA2C57 /* AppointmentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentModel.swift; sourceTree = "<group>"; };
+		0AF66A381FFEFA6D00AA2C57 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		0AF66A3E2000541200AA2C57 /* PricingAndSpecials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PricingAndSpecials.swift; sourceTree = "<group>"; };
+		245F94C51FEF396400569065 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		24684F091FEDCFE00049EB42 /* Hubb City.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hubb City.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24684F0C1FEDCFE00049EB42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24684F0E1FEDCFE00049EB42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24684F131FEDCFE00049EB42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24684F161FEDCFE00049EB42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24684F181FEDCFE00049EB42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24684F3B1FEDDAEB0049EB42 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		24684F3D1FEDE6D80049EB42 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		24684F3E1FEDE6D80049EB42 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		24684F3F1FEDE6D80049EB42 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		24684F401FEDE6D80049EB42 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		24684F411FEDE6D80049EB42 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		24684F421FEDE6D80049EB42 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		24684F431FEDE6D80049EB42 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		24684F441FEDE6D80049EB42 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		24684F4D1FEDE6F20049EB42 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		24684F4F1FEDE71D0049EB42 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		3C27A7876ABB5BD0E5934106 /* Pods_Hubb_City.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hubb_City.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		621ED6ABB425FB14756055CE /* Pods-Hubb City.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hubb City.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hubb City/Pods-Hubb City.debug.xcconfig"; sourceTree = "<group>"; };
+		6F3CD58C42F7C8E28D5CB480 /* Pods-Hubb City.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hubb City.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hubb City/Pods-Hubb City.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24684F061FEDCFE00049EB42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24684F501FEDE71D0049EB42 /* libsqlite3.tbd in Frameworks */,
+				24684F4E1FEDE6F20049EB42 /* libz.tbd in Frameworks */,
+				24684F451FEDE6D80049EB42 /* AudioToolbox.framework in Frameworks */,
+				24684F461FEDE6D80049EB42 /* CFNetwork.framework in Frameworks */,
+				24684F471FEDE6D80049EB42 /* CoreGraphics.framework in Frameworks */,
+				24684F481FEDE6D80049EB42 /* CoreLocation.framework in Frameworks */,
+				24684F491FEDE6D80049EB42 /* QuartzCore.framework in Frameworks */,
+				24684F4A1FEDE6D80049EB42 /* Security.framework in Frameworks */,
+				24684F4B1FEDE6D80049EB42 /* StoreKit.framework in Frameworks */,
+				24684F4C1FEDE6D80049EB42 /* SystemConfiguration.framework in Frameworks */,
+				F098AC59C5C47CDA5FBB723D /* Pods_Hubb_City.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24684F001FEDCFE00049EB42 = {
+			isa = PBXGroup;
+			children = (
+				24684F0B1FEDCFE00049EB42 /* Hubb City */,
+				24684F0A1FEDCFE00049EB42 /* Products */,
+				24684F1E1FEDCFF00049EB42 /* Frameworks */,
+				CE8198A630F44C6ED8E2D75C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		24684F0A1FEDCFE00049EB42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24684F091FEDCFE00049EB42 /* Hubb City.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24684F0B1FEDCFE00049EB42 /* Hubb City */ = {
+			isa = PBXGroup;
+			children = (
+				0AF66A381FFEFA6D00AA2C57 /* Singleton.swift */,
+				0AF66A361FFD9B3300AA2C57 /* AppointmentModel.swift */,
+				24684F0C1FEDCFE00049EB42 /* AppDelegate.swift */,
+				24684F0E1FEDCFE00049EB42 /* ViewController.swift */,
+				24684F131FEDCFE00049EB42 /* Assets.xcassets */,
+				0AF66A241FF090E700AA2C57 /* CarpetCleaning.MOV */,
+				24684F151FEDCFE00049EB42 /* LaunchScreen.storyboard */,
+				24684F181FEDCFE00049EB42 /* Info.plist */,
+				24684F3B1FEDDAEB0049EB42 /* GoogleService-Info.plist */,
+				245F94C51FEF396400569065 /* Main.storyboard */,
+				0AF66A3E2000541200AA2C57 /* PricingAndSpecials.swift */,
+				0AF66A321FFD94A400AA2C57 /* AppointmentsTableViewCell.swift */,
+				0AF66A2C1FFB74CF00AA2C57 /* ScheduleController.swift */,
+				0AF66A341FFD98F200AA2C57 /* AppointmentsViewController.swift */,
+				0AF66A261FF0989200AA2C57 /* SignInViewController.swift */,
+				0AF66A281FF2351A00AA2C57 /* HomePageController.swift */,
+				0AF66A301FFC3E6400AA2C57 /* AppIcon.appiconset */,
+				0AF66A2E1FFC3E2500AA2C57 /* Images.xcassets */,
+			);
+			path = "Hubb City";
+			sourceTree = "<group>";
+		};
+		24684F1E1FEDCFF00049EB42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24684F4F1FEDE71D0049EB42 /* libsqlite3.tbd */,
+				24684F4D1FEDE6F20049EB42 /* libz.tbd */,
+				24684F3D1FEDE6D80049EB42 /* AudioToolbox.framework */,
+				24684F3E1FEDE6D80049EB42 /* CFNetwork.framework */,
+				24684F3F1FEDE6D80049EB42 /* CoreGraphics.framework */,
+				24684F401FEDE6D80049EB42 /* CoreLocation.framework */,
+				24684F411FEDE6D80049EB42 /* QuartzCore.framework */,
+				24684F421FEDE6D80049EB42 /* Security.framework */,
+				24684F431FEDE6D80049EB42 /* StoreKit.framework */,
+				24684F441FEDE6D80049EB42 /* SystemConfiguration.framework */,
+				3C27A7876ABB5BD0E5934106 /* Pods_Hubb_City.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE8198A630F44C6ED8E2D75C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				621ED6ABB425FB14756055CE /* Pods-Hubb City.debug.xcconfig */,
+				6F3CD58C42F7C8E28D5CB480 /* Pods-Hubb City.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24684F081FEDCFE00049EB42 /* Hubb City */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24684F1B1FEDCFE00049EB42 /* Build configuration list for PBXNativeTarget "Hubb City" */;
+			buildPhases = (
+				0E2152376AA445CEA189E521 /* [CP] Check Pods Manifest.lock */,
+				24684F051FEDCFE00049EB42 /* Sources */,
+				24684F061FEDCFE00049EB42 /* Frameworks */,
+				24684F071FEDCFE00049EB42 /* Resources */,
+				2BF0D13BECCA521D6DDC4A7E /* [CP] Embed Pods Frameworks */,
+				7FE582DBE273C4DBF0E9C3E0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hubb City";
+			productName = "Hubb City";
+			productReference = 24684F091FEDCFE00049EB42 /* Hubb City.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24684F011FEDCFE00049EB42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Hubbcity;
+				TargetAttributes = {
+					24684F081FEDCFE00049EB42 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = UYPMG6Y7X6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 24684F041FEDCFE00049EB42 /* Build configuration list for PBXProject "Hubb City" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24684F001FEDCFE00049EB42;
+			productRefGroup = 24684F0A1FEDCFE00049EB42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24684F081FEDCFE00049EB42 /* Hubb City */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24684F071FEDCFE00049EB42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24684F171FEDCFE00049EB42 /* LaunchScreen.storyboard in Resources */,
+				245F94C61FEF396400569065 /* Main.storyboard in Resources */,
+				24684F3C1FEDDAEB0049EB42 /* GoogleService-Info.plist in Resources */,
+				0AF66A2F1FFC3E2500AA2C57 /* Images.xcassets in Resources */,
+				0AF66A311FFC3E6400AA2C57 /* AppIcon.appiconset in Resources */,
+				0AF66A251FF090E800AA2C57 /* CarpetCleaning.MOV in Resources */,
+				24684F141FEDCFE00049EB42 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E2152376AA445CEA189E521 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hubb City-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BF0D13BECCA521D6DDC4A7E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Hubb City/Pods-Hubb City-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hubb City/Pods-Hubb City-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FE582DBE273C4DBF0E9C3E0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hubb City/Pods-Hubb City-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24684F051FEDCFE00049EB42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF66A371FFD9B3300AA2C57 /* AppointmentModel.swift in Sources */,
+				0AF66A351FFD98F200AA2C57 /* AppointmentsViewController.swift in Sources */,
+				24684F0F1FEDCFE00049EB42 /* ViewController.swift in Sources */,
+				0AF66A391FFEFA6D00AA2C57 /* Singleton.swift in Sources */,
+				0AF66A331FFD94A400AA2C57 /* AppointmentsTableViewCell.swift in Sources */,
+				0AF66A291FF2351A00AA2C57 /* HomePageController.swift in Sources */,
+				0AF66A3F2000541200AA2C57 /* PricingAndSpecials.swift in Sources */,
+				0AF66A2D1FFB74CF00AA2C57 /* ScheduleController.swift in Sources */,
+				24684F0D1FEDCFE00049EB42 /* AppDelegate.swift in Sources */,
+				0AF66A271FF0989200AA2C57 /* SignInViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		24684F151FEDCFE00049EB42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24684F161FEDCFE00049EB42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24684F191FEDCFE00049EB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24684F1A1FEDCFE00049EB42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24684F1C1FEDCFE00049EB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 621ED6ABB425FB14756055CE /* Pods-Hubb City.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = UYPMG6Y7X6;
+				INFOPLIST_FILE = "Hubb City/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hubb-City.Hubb-City";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		24684F1D1FEDCFE00049EB42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F3CD58C42F7C8E28D5CB480 /* Pods-Hubb City.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = UYPMG6Y7X6;
+				INFOPLIST_FILE = "Hubb City/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hubb-City.Hubb-City";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24684F041FEDCFE00049EB42 /* Build configuration list for PBXProject "Hubb City" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24684F191FEDCFE00049EB42 /* Debug */,
+				24684F1A1FEDCFE00049EB42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24684F1B1FEDCFE00049EB42 /* Build configuration list for PBXNativeTarget "Hubb City" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24684F1C1FEDCFE00049EB42 /* Debug */,
+				24684F1D1FEDCFE00049EB42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24684F011FEDCFE00049EB42 /* Project object */;
+}
